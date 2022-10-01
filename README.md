@@ -25,6 +25,13 @@ npm install -g json-server
       "email": "josedasilva@gmail.com",
       "id": 1
     }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Titulo",
+      "body": "Descrição do post"
+    },
   ]
 }
 ```
