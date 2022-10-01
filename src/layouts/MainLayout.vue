@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Boilerplate Vue3 and Quasar </q-toolbar-title>
+        <q-toolbar-title> Vue3 and Quasar </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -41,10 +41,16 @@ import EssentialLink from "components/EssentialLink.vue";
 
 const linksList = [
   {
-    title: "Students",
+    title: "Alunos",
     caption: "",
     icon: "school",
     route: { name: "students" },
+  },
+  {
+    title: "Posts",
+    caption: "",
+    icon: "note",
+    route: { name: "posts" },
   },
 ];
 

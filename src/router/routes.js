@@ -13,6 +13,11 @@ const routes = [
         name: "formStudent",
         component: () => import("pages/student/FormStudent.vue"),
       },
+      {
+        path: "posts",
+        name: "posts",
+        component: () => import("pages/post/ListPosts.vue"),
+      },
     ],
   },
 
